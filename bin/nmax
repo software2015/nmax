@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'nmax'
+
+if !$stdin.tty? && ARGV.count > 0
+	puts Nmax::FilterNumbers.filter($stdin, ARGV[0].to_i)
+else
+	puts "Input format: <string> | nmax <max amount of numbers >"
+end
