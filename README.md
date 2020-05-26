@@ -1,6 +1,6 @@
 # Nmax
 
-This is gem for getting numbers from standart input stream.
+This is gem for getting numbers from standart input stream. Rspec is used for testing.
 
 
 ## Installation
