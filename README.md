@@ -29,9 +29,9 @@ Input format:
 ### In code
 Add nmax module:
 
-		require 'nmax'
+	require 'nmax'
 
 Use class for getting numbers
 
-		Nmax::FilterNumbers.filter(stdin_stream, max_array_size)
+	Nmax::FilterNumbers.filter(stdin_stream, max_array_size)
 
