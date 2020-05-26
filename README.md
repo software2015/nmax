@@ -1,6 +1,6 @@
 # Nmax
 
-Welcome to your new gem!
+Welcome to nmax gem!
 
 
 ## Installation
