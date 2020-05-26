@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Input format: <string> | nmax <max amount of numbers >
 
 ## Development
 
@@ -32,4 +32,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/nmax.
+Bug reports and pull requests are welcome on GitHub at https://github.com/software2015/nmax.
