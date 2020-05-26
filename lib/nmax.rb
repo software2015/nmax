@@ -23,13 +23,13 @@ module Nmax
 			  end
 			end
 			self.push_to_array(number) if number != ""
-			return @numbers.sort
+			return @numbers.sort.uniq
 		end
 
 		def self.push_to_array(number)
 			number = number.to_i
 			if @numbers.count == @max_array_size
-				@numbers.sort!
+				@numbers.sort!.uniq!
 				@numbers[0] = number if @numbers[0] < number
 			else
 				@numbers << number

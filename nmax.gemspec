@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
   spec.summary       = %q{nmax is bulilt for processing stream from standart input, as a sort test for recruiter in funbox}
   spec.description   = %q{Gem for selecting numbers from string stream}
-  spec.homepage      = "https://rubygems.org/gems/nmax"
+  spec.homepage      = "https://github.com/software2015/nmax"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -27,9 +27,7 @@ Gem::Specification.new do |spec|
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
-  spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
-    `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  end
+  spec.files         = ["lib/nmax.rb", "lib/nmax/version.rb"]
   spec.bindir        = "bin"
   spec.executables   = ["nmax"]
   spec.require_paths = ["lib"]
